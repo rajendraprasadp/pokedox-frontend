@@ -40,7 +40,11 @@
       class="bg-cyan-400 flex justify-between items-center px-4 fixed bottom-0 w-full p-2"
     >
       <Icon
-        @click="pagination.offset -= 1"
+        @click="
+          pagination.offset > 1
+            ? (pagination.offset -= 1)
+            : (pagination.offset = 0)
+        "
         class="bg-black text-white p-2"
         icon="arrow-left-long"
       >
