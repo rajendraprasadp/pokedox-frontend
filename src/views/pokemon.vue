@@ -9,7 +9,7 @@
         :src="pokemon.imgUrl"
         alt=""
       />
-      <div class="text-cyan-100 font-mono">
+      <div class="text-cyan-200 font-mono">
         <div class="h-8">NAME: {{ pokemon.name }}</div>
         <div class="h-8">BASE EXPERIENCE: {{ pokemon.baseExperience }}</div>
         <div class="h-8">HEIGHT: {{ pokemon.height }}</div>
