@@ -2,7 +2,7 @@
   <div class="">
     <!-- header  -->
     <div class="bg-cyan-300 p-4 flex justify-between items-center">
-      <h1 class="font-bold font-mono text-3xl">Pokemons-Pokedox</h1>
+      <h1 class="font-bold font-mono text-3xl">Pokedox</h1>
       <div>
         <div>
           <input
