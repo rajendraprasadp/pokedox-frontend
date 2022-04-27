@@ -11,7 +11,7 @@
     <div v-if="showMenu" class="bg-gray-900 w-full p-5 fixed flex text-white">
       <div class="">
         <RouterLink :to="'/pokemons/'" class="font-bold m-2 block"
-          >Pokemons/Pokedox</RouterLink
+          >Pokemon-Pokedox</RouterLink
         >
         <a
           href="https://pokeapi.co/docs/v2"
