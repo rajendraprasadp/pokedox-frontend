@@ -47,6 +47,7 @@
         "
         class="bg-black text-white p-2"
         icon="arrow-left-long"
+        title="Previous page"
       >
       </Icon>
 
@@ -58,6 +59,7 @@
         @click="pagination.offset += 1"
         class="bg-black text-white p-2"
         icon="arrow-right-long"
+        title="Forward Page"
       >
       </Icon>
     </div>
