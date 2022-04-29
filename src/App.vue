@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
           @click="$router.back()"
           class="cursor-pointer text-xl"
           icon="arrow-left-long"
+          title="Back"
         ></Icon>
       </div>
     </header>
